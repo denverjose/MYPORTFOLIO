@@ -47,7 +47,7 @@ list = (e) => {
             email: document.getElementById("email").value,
             msg: document.getElementById("message").value,
         }
-        messages.push(message);  
+        messages.push(message); 
         console.table(messages);
         //  Saving to local storage
         localStorage.setItem("message", JSON.stringify(messages));
